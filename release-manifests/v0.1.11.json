@@ -1,0 +1,30 @@
+{
+  "version": "0.1.11",
+  "official_patch": "V9.8 模组汉化修复补丁基线（以发布时实际同步版本为准）",
+  "official_source_url": "https://my.feishu.cn/wiki/ZipZwbSwZipThMkiFrHcibeCn6e",
+  "languages": [
+    "zh",
+    "ja",
+    "de"
+  ],
+  "mods": [
+    "Hatzegopteryx Kukulkan（哈特兹哥翼龙及变种）",
+    "Cyrus Dragons / Drakyros（夜煞）",
+    "Arkitect Structures Remastered（ASR 建筑）",
+    "Extra Bosses（额外 Boss）",
+    "World Builder（世界建造器）",
+    "Zytharian Critters Tek Collection（泰克生物）",
+    "Castle Craft Structure Skins（城堡工艺建筑皮肤）",
+    "Taxidermy Catalogue Museum Skins（博物馆标本皮肤）",
+    "其他已纳入本地翻译库的皮肤和模组条目"
+  ],
+  "changes": [
+    "同步最新官方模组汉化补丁，并保留本项目已验证的模组翻译。",
+    "覆盖生物名称、物品、鞍具、技能、建筑、皮肤说明和模组界面文本。",
+    "locres 同时写入 zh、ja、de，选择日语或德语界面时仍显示中文译文。",
+    "完整保留长说明中的 RichColor 标签、空格和换行，避免整段说明因 key 不匹配而失效。",
+    "正常包显示中文；物品双语包的物品名称和说明保留英文原文并附中文。"
+  ],
+  "font_note": "字体放大补丁单独放在 Release 的字体补丁文件夹中，按官方 PDF 说明安装；不要把字体文件混入模组汉化 ZIP。"
+}
+
