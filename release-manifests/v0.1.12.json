@@ -1,0 +1,30 @@
+{
+  "version": "0.1.12",
+  "official_patch": "V9.8 模组汉化修复补丁基线（以发布时实际同步版本为准）",
+  "official_source_url": "https://my.feishu.cn/wiki/ZipZwbSwZipThMkiFrHcibeCn6e",
+  "languages": ["zh", "ja", "de"],
+  "mods": [
+    "Extra Bosses（额外 Boss，Windows 版本 300）",
+    "Hatzegopteryx Kukulkan（哈特兹哥翼龙及变种）",
+    "Cyrus Dragons / Drakyros（夜煞）",
+    "Arkitect Structures Remastered（ASR 建筑）",
+    "World Builder（世界建造器）",
+    "Zytharian Critters Tek Collection（泰克生物）",
+    "Castle Craft Structure Skins（城堡工艺建筑皮肤）",
+    "Taxidermy Catalogue Museum Skins（博物馆标本皮肤）",
+    "其他已纳入本地翻译库的皮肤和模组条目"
+  ],
+  "mod_versions": [
+    "Extra Bosses：Windows 版本 300"
+  ],
+  "changes": [
+    "更新 Extra Bosses 模组至 Windows 版本 300。",
+    "新增并修正空游无依、空游无依巨型召唤器、机械君王之心、EX 经验瓶、终焉黑魂光环、空游无依的精华、保温与防护、宠物加成等名称。",
+    "补充空游无依召唤器、机械君王之心、终极烈焰光环、EX 经验瓶和迷你宠物加成的完整说明。",
+    "保留长说明中的 RichColor 标签、原始空格和换行，覆盖物品、技能/印痕说明及相关界面文本。",
+    "正常包显示中文；物品双语包保留物品英文原文并附中文。",
+    "同步支持 zh / ja / de 语言回退。"
+  ],
+  "font_note": "字体放大补丁单独放在 Release 的字体补丁文件夹中，按官方 PDF 说明安装；不要把字体文件混入模组汉化 ZIP。",
+  "risk_notice": "模组更新可能改变原文、key、命名空间或资产路径，导致本补丁部分或全部汉化失效；汉化效果以官方汉化补丁和官方发布页面为准。本项目为玩家自制、纯属娱乐的附加汉化，不是官方汉化组作品，不保证兼容性，使用风险和后果由使用者自行承担。本项目与官方汉化补丁共存，不替代官方汉化组的汉化补丁，也不修改模组原文件。"
+}
