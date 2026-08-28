@@ -1,0 +1,11 @@
+# Release ZIPs and game assets must never enter Git history.
+*.zip
+*.pak
+*.ucas
+*.utoc
+*.dll
+*.exe
+release-assets/
+work/
+E:/
+C:/Users/
