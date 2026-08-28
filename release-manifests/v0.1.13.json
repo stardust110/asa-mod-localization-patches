@@ -1,0 +1,33 @@
+{
+  "version": "0.1.13",
+  "official_patch": "V9.8 模组汉化修复补丁基线（以发布时实际同步版本为准）",
+  "official_source_url": "https://my.feishu.cn/wiki/ZipZwbSwZipThMkiFrHcibeCn6e",
+  "languages": ["zh", "ja", "de"],
+  "mods": [
+    "Kawaii's Sweet Structures（甜蜜建筑皮肤，本地客户端三件套审计）",
+    "Extra Bosses（额外 Boss，Windows 版本 300）",
+    "Hatzegopteryx Kukulkan（哈特兹哥翼龙及变种）",
+    "Cyrus Dragons / Drakyros（夜煞）",
+    "Arkitect Structures Remastered（ASR 建筑）",
+    "World Builder（世界建造器）",
+    "Zytharian Critters Tek Collection（泰克生物）",
+    "Castle Craft Structure Skins（城堡工艺建筑皮肤）",
+    "Taxidermy Catalogue Museum Skins（博物馆标本皮肤）",
+    "其他已纳入本地翻译库的皮肤和模组条目"
+  ],
+  "mod_versions": [
+    "Kawaii's Sweet Structures：本地客户端三件套（未包含可读版本号）",
+    "Extra Bosses：Windows 版本 300"
+  ],
+  "changes": [
+    "新增 Kawaii's Sweet Structures（甜蜜建筑皮肤）汉化。",
+    "翻译全麦饼干、蛋糕、华夫饼、吉拿棒、拐杖糖、糖果心、糖霜和烤馅饼等皮肤的名称与完整说明。",
+    "补齐甜蜜家具、甜蜜功能设施、糖果装饰、甜甜圈地毯、糖霜饰边及皮肤应用条件提示。",
+    "本次按本地客户端三件套扫描真实展示字符串，排除测试资源、未使用内容和材质参数。",
+    "扫描流程保留原始 FString 的完整空格、换行与 RichColor 文本，减少长说明因原文差异而漏译的风险。",
+    "正常包显示中文；物品双语包保留英文原文并附中文。",
+    "同步支持 zh / ja / de 语言回退。"
+  ],
+  "font_note": "字体放大补丁单独放在 Release 的字体补丁文件夹中，按官方 PDF 说明安装；不要把字体文件混入模组汉化 ZIP。",
+  "risk_notice": "模组更新可能改变原文、key、命名空间或资产路径，导致本补丁部分或全部汉化失效；汉化效果以官方汉化补丁和官方发布页面为准。本项目为玩家自制、纯属娱乐的附加汉化，不是官方汉化组作品，不保证兼容性，使用风险和后果由使用者自行承担。本项目与官方汉化补丁共存，不替代官方汉化组的汉化补丁，也不修改模组原文件。"
+}
