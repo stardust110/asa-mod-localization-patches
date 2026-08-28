@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="ASA 模组汉化补丁 Logo" width="220">
+</p>
+
 # ASA 模组汉化补丁
 
 这是方舟生存飞升（ARK: Survival Ascended）模组汉化补丁的发布仓库。
