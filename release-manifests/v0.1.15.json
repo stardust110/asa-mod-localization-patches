@@ -1,0 +1,35 @@
+{
+  "version": "0.1.15",
+  "official_patch": "V9.8 模组汉化修复补丁基线（以发布时实际同步版本为准）",
+  "official_source_url": "https://my.feishu.cn/wiki/ZipZwbSwZipThMkiFrHcibeCn6e",
+  "languages": ["zh", "ja", "de"],
+  "mods": [
+    "Jurassic Awakening（侏罗纪觉醒，Windows 版本 207）",
+    "Kawaii's Sweet Structures（甜蜜建筑皮肤）",
+    "Extra Bosses（额外 Boss，Windows 版本 300）",
+    "Hatzegopteryx Kukulkan（哈特兹哥翼龙及变种）",
+    "Cyrus Dragons / Drakyros（夜煞）",
+    "Arkitect Structures Remastered（ASR 建筑）",
+    "World Builder（世界建造器）",
+    "Zytharian Critters Tek Collection（泰克生物）",
+    "Castle Craft Structure Skins（城堡工艺建筑皮肤）",
+    "Taxidermy Catalogue Museum Skins（博物馆标本皮肤）",
+    "其他已纳入本地翻译库的皮肤和模组条目"
+  ],
+  "mod_versions": [
+    "Jurassic Awakening：Windows 版本 207（游戏内回归修复）",
+    "Kawaii's Sweet Structures：本地客户端三件套（未包含可读版本号）",
+    "Extra Bosses：Windows 版本 300"
+  ],
+  "changes": [
+    "修复 Jurassic Awakening（侏罗纪觉醒）Windows 版本 207 在游戏内出现的大量漏译：上一版的构建筛选错误跳过了仍含英文残留的有效本地化条目。",
+    "侏罗纪觉醒本次收录 4,523 条已生成中文的玩家可见原文；物品名称、印痕、物品说明、增益和状态文本不再因完整度检查而被静默遗漏。",
+    "补齐医疗补给站、紧急治疗药膏、肾上腺素提升剂、高级连发弩、强化大型捕兽夹、长矛生物毒素、篝火烤架、卸载架、废金属工具、保温兽皮与海滩吉利套装等名称。",
+    "补齐治疗药膏、连发弩、肾上腺素、捕兽夹、生物毒素、红木浆果、热带浆果和小米粥等长说明、效果、材料、数值标签和制作/支持物品说明。",
+    "补齐海滩雷龙等生物变体名称；保留先前确认的巨蛛 Arachnus·亵渎者、巨兽 Chalice·灭世者、死神 Ravatoss·毁灭之王、哈斯特鹰·乘风者鞍具、极地深域和沼根等术语。",
+    "保留 RichColor 标签、变量、换行与格式控制符；正常包显示中文，物品双语包保留物品英文原文并附中文。",
+    "同步支持 zh / ja / de 语言回退。"
+  ],
+  "font_note": "字体放大补丁单独放在 Release 的字体补丁文件夹中，按官方 PDF 说明安装；不要把字体文件混入模组汉化 ZIP。",
+  "risk_notice": "模组更新可能改变原文、key、命名空间或资产路径，导致本补丁部分或全部汉化失效；汉化效果以官方汉化补丁和官方发布页面为准。本项目为玩家自制、纯属娱乐的附加汉化，不是官方汉化组作品，不保证兼容性，使用风险和后果由使用者自行承担。本项目与官方汉化补丁共存，不替代官方汉化组的汉化补丁，也不修改模组原文件。"
+}
