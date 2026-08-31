@@ -1,0 +1,36 @@
+{
+  "version": "0.1.14",
+  "official_patch": "V9.8 模组汉化修复补丁基线（以发布时实际同步版本为准）",
+  "official_source_url": "https://my.feishu.cn/wiki/ZipZwbSwZipThMkiFrHcibeCn6e",
+  "languages": ["zh", "ja", "de"],
+  "mods": [
+    "Jurassic Awakening（侏罗纪觉醒，Windows 版本 207）",
+    "Kawaii's Sweet Structures（甜蜜建筑皮肤）",
+    "Extra Bosses（额外 Boss，Windows 版本 300）",
+    "Hatzegopteryx Kukulkan（哈特兹哥翼龙及变种）",
+    "Cyrus Dragons / Drakyros（夜煞）",
+    "Arkitect Structures Remastered（ASR 建筑）",
+    "World Builder（世界建造器）",
+    "Zytharian Critters Tek Collection（泰克生物）",
+    "Castle Craft Structure Skins（城堡工艺建筑皮肤）",
+    "Taxidermy Catalogue Museum Skins（博物馆标本皮肤）",
+    "其他已纳入本地翻译库的皮肤和模组条目"
+  ],
+  "mod_versions": [
+    "Jurassic Awakening：Windows 版本 207",
+    "Kawaii's Sweet Structures：本地客户端三件套（未包含可读版本号）",
+    "Extra Bosses：Windows 版本 300"
+  ],
+  "changes": [
+    "新增 Jurassic Awakening（侏罗纪觉醒）Windows 版本 207 的本地化覆盖。",
+    "新增三名世界 Boss：巨蛛 Arachnus·亵渎者、巨兽 Chalice·灭世者、死神 Ravatoss·毁灭之王，以及其召唤物、守卫、克星和战利品名称。",
+    "新增哈斯特鹰、鲨齿龙及其地区、大小、精英、巅峰、远古、猎手等变种名称；鲨齿龙的大型与小型变种保持区分。",
+    "新增哈斯特鹰·乘风者鞍具与对应增益说明；修正显示文本 Winder Surfer 为 Wind Surfer 的语义，中文固定为“乘风者”。",
+    "新增极地深域、灰烬荒原、黑沼泽、沼根、血地精等地区、材料和道具词汇；Fasola 暂保留作者英文名称。",
+    "覆盖已核验的生物、鞍具、武器、弹药、建筑、增益、状态、工具模式和印痕/物品说明；保留 RichColor 标签、变量、换行与格式控制符。",
+    "正常包显示中文；物品双语包保留物品英文原文并附中文。",
+    "同步支持 zh / ja / de 语言回退。"
+  ],
+  "font_note": "字体放大补丁单独放在 Release 的字体补丁文件夹中，按官方 PDF 说明安装；不要把字体文件混入模组汉化 ZIP。",
+  "risk_notice": "模组更新可能改变原文、key、命名空间或资产路径，导致本补丁部分或全部汉化失效；汉化效果以官方汉化补丁和官方发布页面为准。本项目为玩家自制、纯属娱乐的附加汉化，不是官方汉化组作品，不保证兼容性，使用风险和后果由使用者自行承担。本项目与官方汉化补丁共存，不替代官方汉化组的汉化补丁，也不修改模组原文件。"
+}
