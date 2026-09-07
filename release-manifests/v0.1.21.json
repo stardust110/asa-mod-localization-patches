@@ -1,0 +1,18 @@
+{
+  "version": "0.1.21",
+  "official_patch": "V9.9 模组汉化修复补丁基线",
+  "official_source_url": "https://my.feishu.cn/wiki/ZipZwbSwZipThMkiFrHcibeCn6e",
+  "languages": ["zh", "zh-Hans"],
+  "changes": [
+    "修复 Extra Bosses 的 ExtraBoss 命名空间与甜蜜建筑皮肤的 SweetStructures 命名空间未命中，导致已收录文本仍显示英文的问题。\n  Fixes registered text remaining English because the ExtraBoss and SweetStructures namespaces were not previously included.",
+    "普通中文和双语包均保留官方 V9.9 完整基线，并向 Game 和 ShooterGame 的 zh / zh-Hans 资源追加真实命名空间记录。\n  Both packages retain the complete official V9.9 baseline and add real namespace records to Game and ShooterGame zh / zh-Hans resources.",
+    "最终 ZIP 通过 CRC、ASA 兼容 UnrealPak 列表和 locres 导出回读验证。\n  Final ZIPs passed CRC, ASA-compatible UnrealPak listing, and locres export readback."
+  ],
+  "verified_entries": [
+    "ExtraBoss/Dodorex Boss Summoner",
+    "ExtraBoss/Cursed Token",
+    "ExtraBoss/Dream Dodoreaper",
+    "SweetStructures/Graham Cracker Tileset"
+  ],
+  "risk_notice": "安装 0.1.21 前请删除旧版同名 pakchunk9999-Windows_P.pak。无本地化键的固定长度资产字符串不能安全地用 locres 扩展为双语，仍需资产级处理。\nRemove old same-name pakchunk9999-Windows_P.pak before installing 0.1.21. Fixed-length asset strings without localization keys cannot safely be expanded into bilingual text through locres and still need asset-level handling."
+}

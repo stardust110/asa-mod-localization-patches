@@ -1,5 +1,11 @@
 # 更新记录
 
+## 0.1.21
+
+- 修复 Extra Bosses 使用 `ExtraBoss` 命名空间、甜蜜建筑皮肤使用 `SweetStructures` 命名空间时，已收录模组文本仍显示英文的问题。
+- 普通中文与双语包均在保留官方 V9.9 完整基线的基础上，向 `Game` 与 `ShooterGame` 的 `zh / zh-Hans` 资源追加真实命名空间记录。
+- 双语 PAK 回读确认渡渡霸王龙 Boss 召唤器、诅咒令牌、Dream 渡渡死神和全麦饼干建筑套件等条目已存在于真实命名空间。
+
 ## 0.1.20
 
 - 修复 0.1.19 仅封入 `Localization/ShooterGame`，使部分模组仍从 `Localization/Game` 读取英文名称、印痕与说明的问题。
