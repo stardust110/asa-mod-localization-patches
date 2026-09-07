@@ -1,5 +1,11 @@
 # 更新记录
 
+## 0.1.20
+
+- 修复 0.1.19 仅封入 `Localization/ShooterGame`，使部分模组仍从 `Localization/Game` 读取英文名称、印痕与说明的问题。
+- 普通中文包和双语包均同步写入完整合并词库至 `Game` 与 `ShooterGame` 两个命名空间，不恢复旧版稀疏词库覆盖。
+- 从最终双语 PAK 抽取并回读验证 Dream 渡渡霸王龙、渡渡霸王龙 Boss 召唤器和全麦饼干建筑套件等模组词条。
+
 ## 0.1.19
 
 - 修复 0.1.18 覆盖层使用不兼容 UnrealPak 生成，导致客户端报 `Invalid pak file version (12)` 并崩溃的问题。

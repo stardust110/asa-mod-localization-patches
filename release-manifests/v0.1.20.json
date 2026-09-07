@@ -1,0 +1,24 @@
+{
+  "version": "0.1.20",
+  "official_patch": "V9.9 模组汉化修复补丁基线",
+  "official_source_url": "https://my.feishu.cn/wiki/ZipZwbSwZipThMkiFrHcibeCn6e",
+  "languages": ["zh", "zh-Hans"],
+  "mods": [
+    "Jurassic Awakening（侏罗纪觉醒，Windows 版本 207）",
+    "Extra Bosses（额外 Boss，Windows 版本 319）",
+    "Hatzegopteryx Kukulkan（哈特兹哥翼龙及变种）",
+    "Cyrus Dragons / Drakyros（夜煞）",
+    "Arkitect Structures Remastered（ASR 建筑）",
+    "已纳入本地翻译库的皮肤、建筑与生物模组条目"
+  ],
+  "mod_versions": [
+    "Jurassic Awakening：Windows 版本 207",
+    "Extra Bosses：Windows 版本 319"
+  ],
+  "changes": [
+    "修复 0.1.19 遗漏 Localization/Game 命名空间，使部分模组仍显示英文的错误。\n  Fixes the v0.1.19 omission of the Localization/Game namespace that left some mod text in English.",
+    "普通中文和双语包均在 Game 与 ShooterGame 写入完整合并词库；不再使用会覆盖未知原版词条的稀疏 locres。\n  Writes the complete merged vocabulary to both Game and ShooterGame without restoring sparse locres overlays.",
+    "最终双语 PAK 已抽取并回读验证 Dream 渡渡霸王龙、渡渡霸王龙 Boss 召唤器、全麦饼干建筑套件等模组词条。\n  Final bilingual PAK extraction and readback verifies mod entries including Dream DodoRex, Dodorex Boss Summoner, and Graham Cracker Tileset."
+  ],
+  "risk_notice": "安装 0.1.20 前请删除旧版同名 pakchunk9999-Windows_P.pak。模组更新可能改变原文、key、命名空间或资产路径，导致部分汉化失效；请通过 Issues 附上截图反馈。本项目为玩家自制附加汉化，不替代官方汉化补丁。\nRemove the old same-named pakchunk9999-Windows_P.pak before installing 0.1.20. Mod updates can change source text, keys, namespaces, or asset paths. Report reproducible screenshots through Issues. This is a player-made add-on and does not replace the official localization patch."
+}
