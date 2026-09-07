@@ -1,0 +1,25 @@
+{
+  "version": "0.1.18",
+  "official_patch": "V9.9 模组汉化修复补丁基线",
+  "official_source_url": "https://my.feishu.cn/wiki/ZipZwbSwZipThMkiFrHcibeCn6e",
+  "languages": ["zh", "zh-Hans"],
+  "mods": [
+    "Jurassic Awakening（侏罗纪觉醒，Windows 版本 207）",
+    "Extra Bosses（额外 Boss，Windows 版本 319）",
+    "Hatzegopteryx Kukulkan（哈特兹哥翼龙及变种）",
+    "Cyrus Dragons / Drakyros（夜煞）",
+    "Arkitect Structures Remastered（ASR 建筑）",
+    "已纳入本地翻译库的皮肤、建筑与生物模组条目"
+  ],
+  "mod_versions": [
+    "Jurassic Awakening：Windows 版本 207",
+    "Extra Bosses：Windows 版本 319"
+  ],
+  "changes": [
+    "修复双语包用局部 locres 覆盖完整原版词库的问题，改为合并完整基线与模组词条。\n  Fixes sparse locres overlays replacing the full base vocabulary; the package now merges the complete baseline with mod entries.",
+    "双语包补齐经 ASA 术语表确认的原版生物和材料名称，例如南方巨兽龙 [Giganotosaurus]、渡渡鸟 [Dodo]。\n  Adds verified base creature and material display names, including Giganotosaurus and Dodo.",
+    "保留并回归检查侏罗纪觉醒、额外 Boss、夜煞、ASR 与皮肤模组的名称、描述、印痕、资源与状态文本。\n  Retains and regression-checks names, descriptions, engrams, resources, and status text across Jurassic Awakening, Extra Bosses, Night Fury, ASR, and skin mods.",
+    "修复已反馈的中英混排、断句翻译、间距异常和旧覆盖层冲突路径。\n  Repairs reported mixed-language text, fragmented translations, spacing issues, and legacy overlay conflicts."
+  ],
+  "risk_notice": "模组更新可能改变原文、key、命名空间或资产路径，导致部分汉化失效；请通过 Issues 附上截图反馈。本项目为玩家自制附加汉化，不替代官方汉化补丁。\nMod updates can change source text, keys, namespaces, or asset paths. Report reproducible screenshots through Issues. This is a player-made add-on and does not replace the official localization patch."
+}
