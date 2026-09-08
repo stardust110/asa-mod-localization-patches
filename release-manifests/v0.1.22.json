@@ -1,0 +1,22 @@
+{
+  "version": "0.1.22",
+  "official_patch": "V9.9 模组汉化修复补丁基线",
+  "official_source_url": "https://my.feishu.cn/wiki/ZipZwbSwZipThMkiFrHcibeCn6e",
+  "languages": ["zh", "zh-Hans"],
+  "changes": [
+    "修复 0.1.21 仅补写 locres 命名空间仍不能覆盖 Extra Bosses 与 Kawaii's Sweet Structures 实际资产字符串的问题。\n  Fixes v0.1.21, where adding locres namespaces alone could not override the actual asset strings used by Extra Bosses and Kawaii's Sweet Structures.",
+    "普通中文与双语包新增 _P 优先级 IoStore 资产覆盖：BetterSpino（Extra Bosses）195 个资产包，SweetStructures 39 个资产包。\n  Both packages add _P-priority IoStore asset overlays: 195 BetterSpino (Extra Bosses) packages and 39 SweetStructures packages.",
+    "Extra Bosses 写入 379 个已确认字段，Sweet Structures 写入 101 个已确认字段；双语版保留中文[英文]术语并为其他已确认文本附原英文。\n  Extra Bosses writes 379 verified fields and Sweet Structures writes 101; the bilingual build keeps Chinese[English] terms and appends English to other verified text."
+  ],
+  "verified_entries": [
+    "BetterSpino/Dodorex Boss Summoner",
+    "BetterSpino/Cursed Token",
+    "BetterSpino/Dream Dodoreaper",
+    "BetterSpino/X-Dream Dragon",
+    "SweetStructures/Graham Cracker Tileset",
+    "SweetStructures/Cake Tileset",
+    "SweetStructures/Waffle Tileset"
+  ],
+  "validation": "Final ZIP CRC passed. retoc verified 195 Extra Bosses packages and 39 SweetStructures packages in each _P-priority IoStore overlay. One modified asset completed legacy-to-Zen-to-legacy roundtrip and its bilingual title was read back. In-game rendering remains the final runtime check.\n最终 ZIP CRC 通过。retoc 核验每个 _P 优先级 IoStore 覆盖中含 195 个 Extra Bosses 包和 39 个 SweetStructures 包；一个修改资产完成传统格式到 Zen 再回传统格式的往返并读回双语标题。游戏内显示仍是最终运行时检查。",
+  "risk_notice": "安装 0.1.22 前请删除旧版同名 pakchunk9999-Windows_P.pak、BetterSpinoShooterGame-Windows_P.* 和 SweetStructuresShooterGame-Windows_P.*。普通中文包和双语包二选一。\nBefore installing 0.1.22, remove old same-name pakchunk9999-Windows_P.pak, BetterSpinoShooterGame-Windows_P.* and SweetStructuresShooterGame-Windows_P.* files. Choose either the normal or bilingual package."
+}

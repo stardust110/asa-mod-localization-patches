@@ -1,5 +1,12 @@
 # 更新记录
 
+## 0.1.22
+
+- 修复 0.1.21 仅补写 locres 命名空间仍无法汉化 `Extra Bosses` 与 `Kawaii's Sweet Structures` 实际资产文本的问题。
+- 普通中文和双语包均新增 `_P` 优先级 IoStore 资产覆盖：`BetterSpino`（Extra Bosses）195 个资产包、`SweetStructures` 39 个资产包。
+- Extra Bosses 已写入 379 个已确认字段；甜蜜建筑皮肤已写入 101 个已确认字段。双语版保留现有“中文[英文]”术语，其他已确认文本以中文换行附原英文。
+- 最终 ZIP 通过 CRC 校验；四个资产容器均由 `retoc` 按 ASA 当前 IoStore 格式回封并核验包数。游戏内仍应以实际界面截图作为最终运行时验收。
+
 ## 0.1.21
 
 - 修复 Extra Bosses 使用 `ExtraBoss` 命名空间、甜蜜建筑皮肤使用 `SweetStructures` 命名空间时，已收录模组文本仍显示英文的问题。
