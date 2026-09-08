@@ -1,0 +1,13 @@
+{
+  "version": "0.1.24",
+  "kind": "normal-chinese-recovery-only",
+  "official_patch": "V9.9 模组汉化修复补丁正常中文基线",
+  "supersedes": "normal Chinese payloads from v0.1.19 through v0.1.23",
+  "changes": [
+    "普通中文覆盖 PAK 原样复用游戏内已验证的 v0.1.17 字节内容，不重新生成 LocRes，不融合资产容器。\nThe normal overlay PAK reuses the byte-identical, in-game-proven v0.1.17 payload; no LocRes regeneration or asset-container fusion is performed.",
+    "恢复 Game 与 ShooterGame 的 zh、zh-Hans、ja、de 八个入口，避免模组本地化走语言回退时返回英文。\nRestores eight Game/ShooterGame language entries for zh, zh-Hans, ja, and de so mod-localization fallback does not return English.",
+    "本版本不发布双语包；双语资产问题保持独立诊断。\nThis release does not publish a bilingual package; bilingual asset issues remain under separate investigation."
+  ],
+  "validation": "The overlay SHA-256 exactly matches v0.1.17. An ASA-compatible UnrealPak readback confirms the expected ShooterGame/Content mount and all eight locres paths. ZIP CRC and SHA-256 checks passed.\n覆盖 PAK 的 SHA-256 与 v0.1.17 完全一致；使用 ASA 兼容 UnrealPak 回读确认 ShooterGame/Content 挂载点和八个 locres 路径；ZIP CRC 与 SHA-256 校验通过。",
+  "regression_prevention": "Normal and bilingual builds must use separate immutable baselines, isolated output folders, independent manifests, and their own game-runtime regression evidence. A bilingual experiment must never replace a normal payload without normal-mode in-game validation.\n正常与双语必须使用分离的不可变基线、隔离输出目录、独立清单和各自游戏内回归证据；未经普通模式游戏内验证，双语试验不得替换普通包。"
+}
