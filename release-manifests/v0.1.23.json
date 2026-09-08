@@ -1,0 +1,14 @@
+{
+  "version": "0.1.23",
+  "official_patch": "V9.9 模组汉化修复补丁基线",
+  "official_source_url": "https://my.feishu.cn/wiki/ZipZwbSwZipThMkiFrHcibeCn6e",
+  "languages": ["zh", "zh-Hans"],
+  "supersedes": "v0.1.22",
+  "changes": [
+    "修复 v0.1.22 的独立 BetterSpino 与 SweetStructures 根目录容器未被客户端发现的问题。\n  Fixes v0.1.22, where independent BetterSpino and SweetStructures root containers were not discovered by the client.",
+    "将 195 个 Extra Boss 资产包和 39 个 Sweet Structures 资产包融合进客户端扫描的 ShooterGame-Windows_P 根容器。\n  Fuses 195 Extra Boss packages and 39 Sweet Structures packages into the client-scanned ShooterGame-Windows_P root container.",
+    "每个 ZIP 只保留 pakchunk9999-Windows_P.pak 和 ShooterGame-Windows_P.pak/.ucas/.utoc 四个游戏文件。\n  Each ZIP now contains only four game files: pakchunk9999-Windows_P.pak and ShooterGame-Windows_P.pak/.ucas/.utoc."
+  ],
+  "validation": "Both root IoStore containers passed retoc verify. A bilingual root-container roundtrip read back the translated Dodorex Boss Summoner and Graham Cracker Tileset asset fields. ZIP CRC and SHA-256 checks passed.\n两个根 IoStore 容器均通过 retoc verify。双语根容器往返回读确认渡渡霸王龙 Boss 召唤器与全麦饼干建筑套件资产字段已翻译。ZIP CRC 和 SHA-256 校验均通过。",
+  "risk_notice": "安装 v0.1.23 前删除 v0.1.22 的 BetterSpinoShooterGame-Windows_P.* 与 SweetStructuresShooterGame-Windows_P.*；普通中文包与双语包二选一。\nBefore installing v0.1.23, remove v0.1.22 BetterSpinoShooterGame-Windows_P.* and SweetStructuresShooterGame-Windows_P.* files. Choose either the normal or bilingual ZIP."
+}

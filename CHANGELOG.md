@@ -1,5 +1,12 @@
 # 更新记录
 
+## 0.1.23
+
+- 修复 0.1.22 将 `BetterSpinoShooterGame-Windows_P.*` 与 `SweetStructuresShooterGame-Windows_P.*` 作为独立根目录容器安装后，客户端未发现并加载它们的问题。
+- 改为将 Extra Boss 195 个资产包和 Sweet Structures 39 个资产包融合进客户端已扫描的 `ShooterGame-Windows_P.pak/.ucas/.utoc` 根容器；每个 ZIP 现只包含 4 个游戏文件。
+- 保留 `pakchunk9999-Windows_P.pak` 的官方 9.9 本地化基线和普通中文/双语差异；普通与双语版本分别构建。
+- 两个根 IoStore 容器均通过完整性验证，且容器回读确认渡渡霸王龙 Boss 召唤器与全麦饼干建筑套件的双语资产文本存在。
+
 ## 0.1.22
 
 - 修复 0.1.21 仅补写 locres 命名空间仍无法汉化 `Extra Bosses` 与 `Kawaii's Sweet Structures` 实际资产文本的问题。
