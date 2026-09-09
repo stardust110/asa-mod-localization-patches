@@ -1,0 +1,13 @@
+{
+  "version": "0.1.26",
+  "kind": "bilingual",
+  "official_patch": "V9.9 模组恐龙与物品双语汉化基线",
+  "supersedes": "unpublished bilingual candidates 0.1.25 and 0.1.26-candidate",
+  "changes": [
+    "使用完整原版双语词库，并在 Game 与 ShooterGame 下恢复 zh、zh-Hans、ja、de 八个入口。\nUses the complete base-game bilingual dictionary and restores eight zh, zh-Hans, ja, and de entries under Game and ShooterGame.",
+    "游戏内验证原版南方巨兽龙、Extra Bosses 的衰变之嗣与甜蜜建筑皮肤均正确显示双语。\nIn-game screenshots verify bilingual rendering for base-game Giganotosaurus, Extra Bosses Scion of Degeneration, and Sweet Structures skins.",
+    "X-Dream Dragon 固定显示为 X-Dream 喷火龙[X-Dream Dragon]。\nX-Dream Dragon now consistently displays as X-Dream 喷火龙[X-Dream Dragon]."
+  ],
+  "validation": "ZIP CRC passed. The target-compatible UnrealPak test passed. Layout comparison confirms the v0.1.17 game-proven mount point and all eight LocRes paths. Game screenshots confirm both original-game and mod bilingual surfaces.\nZIP CRC、目标兼容 UnrealPak 测试均通过；布局比对确认 v0.1.17 已验证挂载点与全部八个 LocRes 路径；游戏截图确认原版与模组双语界面。",
+  "risk_notice": "Install either the normal v0.1.24 package or this bilingual package, never both.\n正常中文 v0.1.24 与本双语包二选一安装，不可混装。"
+}

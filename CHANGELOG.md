@@ -1,5 +1,12 @@
 # 更新记录
 
+## 0.1.26
+
+- **双语正式恢复版。** 使用完整原版双语词库，同时恢复 `Game` 与 `ShooterGame` 下 `zh / zh-Hans / ja / de` 八个回退入口。
+- 游戏内已验证：南方巨兽龙显示“南方巨兽龙 [Giganotosaurus]”；Extra Bosses 的衰变之嗣显示“衰变之嗣[Scion of Degeneration]”；甜蜜建筑皮肤显示中英双语。
+- 修正 Extra Bosses：`X-Dream Dragon` 固定译为 `X-Dream 喷火龙[X-Dream Dragon]`，不再错误译作“巨龙”。
+- `0.1.24` 普通中文回归包继续有效；正常中文与双语包二选一安装。
+
 ## 0.1.24
 
 - **普通中文回归版。** `pakchunk9999-Windows_P.pak` 原样复用已在游戏内验证有效的 0.1.17 覆盖层；未重新生成 LocRes、未合并 IoStore 资产、未包含双语实验内容。
