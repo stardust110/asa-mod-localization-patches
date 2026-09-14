@@ -1,5 +1,13 @@
 # 更新记录
 
+## 0.1.27
+
+- 同时发布普通中文包 `ASA_Mod_Localization_0.1.27.zip` 与双语包 `ASA_Mod_Localization_Bilingual_0.1.27.zip`；两个包只能二选一安装。
+- 修复此前只覆盖 LocRes、却漏掉直接资产文本的皮肤模组：Crystal Skins、Elven Structure Skins、Arcadian Premium。
+- 新增 98 条审校后的直接资产文本：Crystal 2 条、Elven 42 条、Arcadian 54 条；涵盖物品名称、分类、说明与操作提示。
+- 普通中文严格以游戏内验证过的 `0.1.24` 为基线，双语严格以游戏内验证过的 `0.1.26` 为基线；两个 IoStore 根容器独立重建，不交叉复用。
+- 两个根容器通过 `retoc verify`，两个 ZIP 通过 CRC 校验。直接资产仍需以安装后的游戏内显示为最终验证。
+
 ## 0.1.26
 
 - **双语正式恢复版。** 使用完整原版双语词库，同时恢复 `Game` 与 `ShooterGame` 下 `zh / zh-Hans / ja / de` 八个回退入口。
