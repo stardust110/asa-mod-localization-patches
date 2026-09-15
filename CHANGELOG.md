@@ -1,12 +1,16 @@
 # 更新记录
 
-## 0.1.30
+## 0.1.31
 
 - **3+1 结构正式版。** 每个 ZIP 固定为 `ShooterGame-Windows_P.pak/.ucas/.utoc` 基线三件套，加一个合并的 `pakchunk9999-Windows_P.pak`；不再额外提供 `pakchunk9998` 资产容器三件套。
 - `pakchunk9999` 同时包含完整 LocRes 语言路由，以及 Extra Bosses、甜蜜建筑皮肤、Crystal Skins、Elven Structure Skins、Arcadian Premium 等模组的直接资产修复。
 - 普通中文已完成游戏内验证：Dream 渡渡死神的名称、交互提示、状态文本及甜蜜建筑皮肤物品名称均正常显示中文。
 - `ShooterGame-Windows_P` 基线三件套逐字节保留自已验证版本，直接资产不再替换或重封根容器，避免发生英文回退。
 - 普通中文与双语包仍然独立、二选一安装；两包均附 SHA-256 校验值。
+
+## 0.1.30
+
+- GitHub 生成了一个不可操作的未公开草稿：它无法接收 ZIP、无法公开，也无法通过 API 删除。该草稿没有可下载的正式资源，已由 `0.1.31` 替代。
 
 ## 0.1.29
 
