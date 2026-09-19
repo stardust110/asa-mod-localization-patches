@@ -1,5 +1,13 @@
 # 更新记录
 
+## 0.1.32
+
+- 新增 Cliffan Backpacks、Immersive Taming、Insaluna、Zeeb's Dino Havens 的直接资产本地化，覆盖已识别的物品/印痕名称、物品说明、操作台配置、驯服提示、状态文本及栖息地交互提示。
+- Insaluna 的原版神器名称严格使用已确认的游戏译名：猎手、团结、稳重、狡诈、智慧、天主、吞噬、免疫神器；作者自定义的人名、地名和生物专名保留英文，不擅自音译或改写。
+- 同时发布普通中文与名称双语包。双语包仅在名称类字段追加 `[English]`，长说明、提示和日志保持中文，减少 UI 溢出。
+- 两包均保持 `3+1` 布局：基线 `ShooterGame-Windows_P.pak/.ucas/.utoc` 已逐字节核对，所有本地化直接资产仅合并在 `pakchunk9999-Windows_P.pak`；UnrealPak 测试、ZIP CRC 和译文回读均通过。
+- 本次新增模组已完成容器级验证；实际游戏内界面仍是最终验收依据。发现漏译、错译或显示异常时，请提供模组界面截图和补丁版本。
+
 ## 0.1.31
 
 - **3+1 结构正式版。** 每个 ZIP 固定为 `ShooterGame-Windows_P.pak/.ucas/.utoc` 基线三件套，加一个合并的 `pakchunk9999-Windows_P.pak`；不再额外提供 `pakchunk9998` 资产容器三件套。

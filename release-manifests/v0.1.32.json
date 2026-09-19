@@ -1,0 +1,15 @@
+{
+  "version": "0.1.32",
+  "kind": "normal-and-bilingual",
+  "packages": [
+    "ASA_Mod_Localization_0.1.32.zip",
+    "ASA_Mod_Localization_Bilingual_0.1.32.zip"
+  ],
+  "changes": [
+    "Adds direct-asset localization for Cliffan Backpacks, Immersive Taming, Insaluna, and Zeeb's Dino Havens.",
+    "Uses confirmed Chinese artifact names and retains unconfirmed mod-author proper names in English.",
+    "Bilingual names use Chinese[English]; long descriptions remain Chinese."
+  ],
+  "validation": "Each selected translation was imported into isolated assets and found in a fresh export. UnrealPak -Test, ZIP CRC, and byte-for-byte baseline trio comparison passed for both packages.",
+  "risk_notice": "Container validation does not replace in-game acceptance. Install exactly one package and report player-facing issues with a screenshot."
+}
