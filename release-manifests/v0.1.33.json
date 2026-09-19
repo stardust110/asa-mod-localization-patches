@@ -1,0 +1,10 @@
+{
+  "version": "0.1.33",
+  "kind": "normal-and-bilingual",
+  "changes": [
+    "Retains Insaluna creature and character names in English.",
+    "Translates contextual non-creature proper terms, locations, crystals, journals, altars, and linked loot."
+  ],
+  "validation": "UnrealPak -Test and ZIP CRC passed for both 3+1 packages.",
+  "risk_notice": "Install exactly one package and use in-game screenshots for final display acceptance."
+}
